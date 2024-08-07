@@ -1,4 +1,4 @@
-# Turborepo JavaScript & Tailwindcss & shadcn/ui & NextUI starter
+# Turborepo JavaScript, Tailwindcss, shadcn/ui and NextUI starter for Multi-vendor & e-com solutions.
 
 This is ` Not ` an official starter Turborepo.
 
@@ -16,9 +16,9 @@ This Turborepo includes the following packages/apps:
 
 ### Apps and Packages
 
-- `web`: a [Next.js](https://nextjs.org/) app with [Tailwind CSS](https://tailwindcss.com/)
-- `ui`: a stub React component library with [Tailwind CSS](https://tailwindcss.com/), [NextUI](https://nextui.org/), [shadcn\ui](https://ui.shadcn.com/) shared by `web` 
-- No typescript 
+- `store`: a [Next.js](https://nextjs.org/) app with [Tailwind CSS](https://tailwindcss.com/)
+- `dashboard`: another [Next.js](https://nextjs.org/) app with [Tailwind CSS](https://tailwindcss.com/)
+- `ui`: a stub React component library with [Tailwind CSS](https://tailwindcss.com/), [NextUI](https://nextui.org/), [shadcn\ui](https://ui.shadcn.com/) shared by both `store` & `dashboard`
 
 Each package/app is 100% `JavaScript`.
 
