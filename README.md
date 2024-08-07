@@ -4,7 +4,7 @@ This is `Not` an official starter Turborepo.
 
 ## Using this example
 
-Clone it then run the following command:
+Clone this repo then run the following command:
 
 ```sh
 npm i
