@@ -1,20 +1,33 @@
 {
   "private": true,
+  "prisma": {
+    "schema": "packages/database/prisma/schema.prisma",
+    "seed": "tsx packages/database/src/seed.ts"
+  },
   "scripts": {
     "build": "turbo build",
     "dev": "turbo dev",
     "lint": "turbo lint",
     "type-check": "turbo type-check",
     "clean": "turbo clean",
-    "format": "prettier --write \"**/*.{js,jsx,md}\""
+    "format": "prettier --write \"**/*.{js,jsx,md}\"",
+    "db:migrate:deploy": "turbo run db:migrate:deploy",
+    "db:push": "turbo run db:push",
+    "db:seed": "turbo run db:seed",
+    "generate": "turbo run generate"
   },
   "devDependencies": {
     "eslint": "^8",
     "eslint-config-next": "14.2.5",
     "prettier": "^3.2.5",
+    "tsx": "^4.7.1",
     "prettier-plugin-tailwindcss": "^0.6.5",
     "turbo": "^2.0.12",
-    "tailwind-merge": "^2.4.0"
+    "tailwind-merge": "^2.4.0",
+    "prisma": "5.10.2"
+  },
+  "dependencies": {
+    "@prisma/client": "5.10.2"
   },
   "engines": {
     "node": ">=18"
