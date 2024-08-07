@@ -50,8 +50,8 @@ If you choose this strategy, you can remove the `tailwindcss` and `autoprefixer`
 To add shadcn component cd into `packages/ui` then use any shadcn CLI
 example :
 
-C:\..\your-project\packages\ui>```cmd
-npx  shadcn-ui@latest  add  button
+```
+C:\..\your-project\packages\ui>npx  shadcn-ui@latest  add  button
 ```
 
 this will add the component in `packages/ui/src/Shadcn`
