@@ -18,7 +18,7 @@ This Turborepo includes the following packages/apps:
 
 - `store`: a [Next.js 14](https://nextjs.org/) app with [Tailwind CSS](https://tailwindcss.com/)
 - `dashboard`: another [Next.js 14](https://nextjs.org/) app with [Tailwind CSS](https://tailwindcss.com/)
-- `ui`: a stub React component library with [Tailwind CSS](https://tailwindcss.com/), [NextUI](https://nextui.org/), [shadcn\ui](https://ui.shadcn.com/) shared by both `store` & `dashboard`
+- `@repo/ui`: a stub React component library with [Tailwind CSS](https://tailwindcss.com/), [NextUI](https://nextui.org/), [shadcn\ui](https://ui.shadcn.com/) shared by both `store` & `dashboard`
 - `@repo/database`: [Prisma](https://www.prisma.io/) ORM wrapper to manage & access your database
 
 
