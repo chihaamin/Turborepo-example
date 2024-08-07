@@ -1,6 +1,6 @@
 # Turborepo JavaScript, Tailwindcss, shadcn/ui and NextUI starter for Multi-vendor & e-com solutions.
 
-This is ` Not ` an official starter Turborepo.
+This is `Not` an official starter Turborepo.
 
 ## Using this example
 
@@ -45,13 +45,17 @@ For example, in [tailwind.config.js](packages/tailwind-config/tailwind.config.js
 
 If you choose this strategy, you can remove the `tailwindcss` and `autoprefixer` dependencies from the `ui` package.
 
-### Note 
-To add shadcn component cd into `packages/ui` then use any shadcn CLI 
+### Note
+
+To add shadcn component cd into `packages/ui` then use any shadcn CLI
 example :
-```sh
-C:\..\your-project\packages\ui> npx shadcn-ui@latest add button
+
+```cmd
+C:\..\your-project\packages\ui>npx  shadcn-ui@latest  add  button
 ```
+
 this will add the component in `packages/ui/src/Shadcn`
+
 #### Don't forget to add your component to the export in `packages/ui/package.json` .
 
 ### Utilities
