@@ -1,6 +1,6 @@
-# Turborepo Tailwind CSS starter
+# Turborepo JavaScript & Tailwindcss & shadcn/ui & NextUI starter
 
-This is an official starter Turborepo.
+This is ` Not ` an official starter Turborepo.
 
 ## Using this example
 
